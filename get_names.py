@@ -5,7 +5,8 @@ import glob
 import os
 import sys
 
-default_folder = "files_containing_names"
+# Default folder (relative path), used if there is no args given to the program
+default_folder = "files_containing_names" # Edit me (files will be recursively checked from here)
 
 def get_basenames(path_pattern):
     """
